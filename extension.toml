@@ -1,6 +1,6 @@
 id = "zenc"
 name = "Zen C"
-version = "0.0.1"
+version = "0.1"
 schema_version = 1
 description = "Zen C language support with LSP and syntax highlighting"
 authors = ["PigeonCoding <wassimdzd@gmail.com>"]
