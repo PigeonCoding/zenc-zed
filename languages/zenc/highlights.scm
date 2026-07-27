@@ -85,5 +85,14 @@
 ; Lambda
 (lambda_expression "->" @punctuation.delimiter)
 
+; Print statements
+(print_statement "print" @keyword)
+(print_statement "println" @keyword)
+(print_statement "eprint" @keyword)
+(print_statement "eprintln" @keyword)
+
+; Raw blocks
+(raw_statement "raw" @keyword)
+
 ; Test declarations
 (test_declaration (string_literal) @string.special)
