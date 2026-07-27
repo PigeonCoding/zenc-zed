@@ -4,8 +4,8 @@ version = "0.0.1"
 schema_version = 1
 
 [grammars.zenc]
-repository = "https://github.com/YOUR_USER/tree-sitter-zenc"
-commit = "b49e9423116ce29462f049c8b4c36fa56bf369ad"
+repository = "https://github.com/PigeonCoding/tree-sitter-zenc"
+commit = "e7c5cdb5c138cb4989714e0e306bead94be4b445"
 
 [language_servers.zenc]
 name = "Zen C LSP"
