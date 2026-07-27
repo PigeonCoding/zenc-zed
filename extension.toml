@@ -1,0 +1,12 @@
+id = "zenc"
+name = "Zen C"
+version = "0.0.1"
+schema_version = 1
+
+[grammars.zenc]
+repository = "https://github.com/YOUR_USER/tree-sitter-zenc"
+commit = "b49e9423116ce29462f049c8b4c36fa56bf369ad"
+
+[language_servers.zenc]
+name = "Zen C LSP"
+languages = ["Zen C"]
