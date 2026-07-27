@@ -2,6 +2,7 @@ id = "zenc"
 name = "Zen C"
 version = "0.0.1"
 schema_version = 1
+repository = "https://github.com/PigeonCoding/zenc-zed"
 
 [grammars.zenc]
 repository = "https://github.com/PigeonCoding/tree-sitter-zenc"
