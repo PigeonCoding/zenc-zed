@@ -24,7 +24,22 @@
 "extern" @keyword
 "def" @keyword
 "async" @keyword
-"or" @keyword.operator
+"do" @keyword
+"while" @keyword.repeat
+"asm" @keyword
+"volatile" @keyword
+"embed" @keyword
+"opaque" @keyword
+"plugin" @keyword
+"sizeof" @keyword
+"typeof" @keyword
+"guard" @keyword
+"unless" @keyword
+"launch" @keyword
+"comptime" @keyword
+"static" @keyword
+"autofree" @keyword
+"assert" @keyword
 "true" @constant.builtin
 "false" @constant.builtin
 
@@ -84,6 +99,15 @@
 
 ; Lambda
 (lambda_expression "->" @punctuation.delimiter)
+
+; Closure
+(closure_expression "fn" @keyword.function)
+
+; Operators
+(postfix_expression "++" @operator)
+(postfix_expression "--" @operator)
+(try_expression "?" @operator)
+(pipe_expression "|>" @operator)
 
 ; Print statements
 (print_statement "print" @keyword)
