@@ -8,7 +8,7 @@ repository = "https://github.com/PigeonCoding/zenc-zed"
 
 [grammars.zenc]
 repository = "https://github.com/PigeonCoding/tree-sitter-zenc"
-commit = "e7c5cdb5c138cb4989714e0e306bead94be4b445"
+commit = "892b837dc783c222ed2c59894338b25e0e991629"
 
 [language_servers.zenc]
 name = "Zen C LSP"
