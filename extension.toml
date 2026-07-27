@@ -2,7 +2,10 @@ id = "zenc"
 name = "Zen C"
 version = "0.0.1"
 schema_version = 1
+description = "Zen C language support with LSP and syntax highlighting"
 repository = "https://github.com/PigeonCoding/zenc-zed"
+creator = "PigeonCoding"
+tags = ["language", "lsp", "syntax-highlighting", "zenc"]
 
 [grammars.zenc]
 repository = "https://github.com/PigeonCoding/tree-sitter-zenc"
